@@ -1,0 +1,29 @@
+>>> # Create a web address and store it in a variable
+>>> URL = "mycoolsite.com"
+>>> # Store the IP address within a string variable
+>>> IP_address = "216.3.128.12"
+>>> # Create some variables to store how many times the site was visited each day
+>>> Monday = 103
+>>> Tuesday = 125
+>>> Wednesday = 333
+>>> Thursday = 444
+>>> Friday = 555
+>>>
+>>> # Add up all the daily hits for the week and store them in a variable
+>>> weekly_hits = Monday + Tuesday + Wednesday + Thursday + Friday
+>>> # Find the average daily hits for the week
+>>> average_hits = weekly_hits / 7
+>>> # Print out all of the summaries to the screen
+>>> print("URL: " + URL)
+URL: mycoolsite.com
+>>> print("IP: " + IP_address)
+IP: 216.3.128.12
+>>> print("Weekly Hits: " + str(weekly_hits))
+Weekly Hits: 1560
+>>> print("Average Hits: " + str(average_hits))
+Average Hits: 222.85714285714286
+>>> # What if we want to print average hit without decimals?
+>>> average_hits_int = int(weekly_hits/7)
+>>> print("Average hits as int: " + str(average_hits_int))
+Average hits as int: 222
+>>>
