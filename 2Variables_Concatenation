@@ -1,0 +1,23 @@
+>>> # Arithmetic Operations
+>>> count = 10 + 2
+>>> print(count)
+12
+>>> # String Concatenation
+>>> hi = "Salutations" + "World!"
+>>> print(hi)
+SalutationsWorld!
+>>> hi = "Salutations " + "World!" + "  :)"
+>>> print(hi)
+Salutations World!  :)
+>>>
+>>> # String Conversion and Concatenation
+>>> age = 30
+>>> words = "I am currently "
+>>> completeSentence = words + str(age)
+>>> print(completeSentence)
+I am currently 30
+>>> # Practice Changing Sentence Construction
+>>> morewords = " years old!"
+>>> completeSentence = words + str(age) + morewords
+>>> print(completeSentence)
+I am currently 30 years old!
