@@ -1,0 +1,74 @@
+>>> # Part 1: Integers
+>>> # Prints: 10
+>>> # Prints: # <class 'int'>
+>>> variable_one = 10
+>>> print(variable_one)
+10
+>>> print(type(variable_one))
+<class 'int'>
+>>> # Prints: 5
+>>> variable_two = 5
+>>> print(variable_two)
+5
+>>> # Prints: 15
+>>> sum_of_variables = variable_one + variable_two
+>>> print(sum_of_variables)
+15
+>>> # Prints: 5
+>>> difference_of_variables = variable_one - variable_two
+>>> print(difference_of_variables)
+5
+>>> #Prints: 2.0
+>>> # Prints: # <class 'float'>
+>>> division_variables = variable_one / variable_two
+>>> print(division_variables)
+2.0
+>>> print(type(division_variables))
+<class 'float'>
+>>> # Prints: 50
+>>> multiplication_variables = variable_one * variable_two
+>>> print(multiplication_variables)
+50
+>>>
+>>> # Part 2: Floats
+>>> # Prints: 1.25
+>>> # Prints: # <class 'float'>
+>>> variable_three = 1.25
+>>> print(variable_three)
+1.25
+>>> print(type(variable_three))
+<class 'float'>
+>>> # Prints: 2.25
+>>> # Prints: # <class 'float'>
+>>> variable_sum = variable_three + 1
+>>> print(variable_sum)
+2.25
+>>> print(type(variable_sum))
+<class 'float'>
+>>>
+>>> # Part 3: Strings
+>>> # Prints: This is some spiffy text!
+>>> # Prints: # <class 'str'>
+>>> variable_four = "This is some spiffy text!"
+>>> print(variable_four)
+This is some spiffy text!
+>>> print(type(variable_four))
+<class 'str'>
+>>> # Prints: This is also some cool text!
+>>> variable_five = "This is also some cool text!"
+>>> print(variable_five)
+This is also some cool text!
+>>> # Prints: This is some spiffy text! This is also some cool text!
+>>> joined_vars = variable_four + " " + variable_five
+>>> print(joined_vars)
+This is some spiffy text! This is also some cool text!
+>>> # Prints: My favorite number is 47!
+>>> this_will_work = "My favorite number is " + str(47)
+>>> print(this_will_work)
+My favorite number is 47
+>>> # Prints: 407.14
+>>> text_int = "400"
+>>> text_float = "7.14"
+>>> adding_together = int(text_int) + float(text_float)
+>>> print(adding_together)
+407.14
