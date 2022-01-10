@@ -4,8 +4,11 @@ class MyFrame(Frame):
     def __init__(self):
         Frame.__init__(self)
 
-        self.myCanvas = Canvas(width=300, height=200, bg="green")
+        self.myCanvas = Canvas(width=200, height=200, bg="green")
         self.myCanvas.grid()
+        self.myCanvas.create_rectangle(10, 10, 100, 100, fill="white", outline="yellow", width=5)
     
 frame02 = MyFrame()
 frame02.mainloop()
+
+
