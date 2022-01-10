@@ -9,7 +9,8 @@ class MyFrame(Frame):
         self.myCanvas.create_rectangle(10, 10, 200, 100, fill="white", outline="yellow", width=5)
         self.myCanvas.create_oval(10, 10, 200, 100, fill="purple")
         self.myCanvas.create_line(1, 1, 200, 200, arrow="first")
+        self.myCanvas.create_line(1, 1, 200, 200, arrow="first")
+        self.myCanvas.create_text(50, 50, text="Hello World")
 frame02 = MyFrame()
 frame02.mainloop()
-
 
