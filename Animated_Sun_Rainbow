@@ -22,8 +22,11 @@ class MyFrame(Frame):
 
         self.myCanvas.create_arc(179, 179, 360, 360, style="arc",
             start=0, extent=180, fill="blue", outline="blue", width=21)
+        
+        self.myCanvas.create_arc(199, 199, 340, 340, style="arc",
+            start=0, extent=180, fill="dark violet", outline="dark violet", width=21)
 
-        self.myCanvas.create_rectangle(0, 250, 450, 450, fill="darkgreen")
+        self.myCanvas.create_rectangle(0, 250, 450, 450, fill="light green")
 
         # Create the sun and move it
         my_sun = self.myCanvas.create_oval(0, 160, 30, 190, fill="orange",
@@ -39,3 +42,4 @@ class MyFrame(Frame):
 
 frame02 = MyFrame()
 frame02.mainloop()
+
