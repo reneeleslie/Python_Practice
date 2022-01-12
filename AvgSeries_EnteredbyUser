@@ -1,0 +1,33 @@
+#Write a program that computes the average of a series of numbers entered by the user. To make the program more user-friendly, store all the numbers in a list so that the user's numbers can be displayed before the average appears. Have your program stop accepting values when the user enters the value -999. Note that this value, -999, should not be averaged in with the other numbers.
+number_list = []
+sum = 0.0
+
+user_number = eval(input("Please enter a number (-999 quits): "))
+
+# Loop until the user is ready to quit
+while (user_number != -999):
+    number_list.append(user_number)
+    sum = sum + user_number
+    user_number = eval(input("Please enter a number (-999 quits): "))
+
+# Make sure the user entered something
+if (len(number_list) != 0):
+    # Compute average
+    average = sum / len(number_list)
+
+    # Do output
+    print ("Using the numbers:")
+
+    for i in range(len(number_list)):
+        # Note the end = " " at the end will keep the output on
+        #   the same line
+        print (number_list[i], end = " ")
+
+    # Note the \n at the start of this line is needed because
+    #   the previous print statement ended with a comma.  This
+    #   \n will move the cursor to the next line
+    print ("\nThe average is:", average)
+else:
+    print ("No values were entered")
+
+
